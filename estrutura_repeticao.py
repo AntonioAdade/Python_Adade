@@ -47,7 +47,7 @@ while True:
 print("parabens, o numero correto é: ", numero)
 
 for numero in range(100):
-    if numero % 2 == 0: #notação para retornar numeros pares
-        continue
+    if numero % 2 == 0: #notação para pular numeros pares. neste caso retorna numeros impares
+        continue    #continue é usado para evitar um numero ou resultado. o compilador vai pular a condição e continuar o codigo
 
     print(numero, end=" ")
