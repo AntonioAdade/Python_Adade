@@ -3,4 +3,6 @@ def sacar (valor):
     
     if saldo >= valor:
         print("valor sacado")
+
+
 sacar(100)
