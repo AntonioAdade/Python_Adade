@@ -1,8 +1,7 @@
-print(False or True)
-
-
-saldo = 1000
-saque = 200
-limite = 100
-
-saldo >= saque and saque <= limite
+def sacar (valor):
+    saldo = 500
+    
+    if saldo >= valor:
+        print("valor sacado")
+        
+sacar(100)
